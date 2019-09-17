@@ -5,8 +5,11 @@ O=class
 
 TARG=eu.atl.main.HelloWorld
 OFILES=\
-	eu/atl/main/HelloWorld.class\
-	eu/atl/err/Hunchback.class\
+	eu/atl/main/HelloWorld.$O\
+	eu/atl/main/Scale.$O\
+	eu/atl/main/Point.$O\
+	eu/atl/main/Rectangle.$O\
+	eu/atl/err/Hunchback.$O\
 
 .PHONY: all clean
 all: $(TARG)
